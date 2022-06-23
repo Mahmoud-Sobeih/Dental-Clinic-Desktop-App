@@ -1,0 +1,45 @@
+.root{
+    -fx-background-image: url('../img/img.jpg');
+}
+
+
+#help{
+    -fx-font: normal bold 25px 'serif';
+    -fx-text-fill: red;
+}
+#help:hover{
+    -fx-opacity: 0.5;
+}
+
+
+#txt  
+{  
+   -fx-font-size: 30px;
+   -fx-font-family: "Britannic Bold";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box ,rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 ); 
+}
+
+.grid-pane {
+    -fx-padding: 15;
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+}
+.grid{
+    -fx-padding: 10;
+    -fx-hgap: 30;
+    -fx-vgap: 20;
+}
+
+.button{
+    -fx-background-color: #000000;
+    -fx-text-fill:white;
+    -fx-text-size:90px;
+    -fx-font-family: "Britannic Bold";
+    -fx-min-width: 210;
+    -fx-min-height: 40;
+}
+.button:hover {
+  -fx-opacity: 0.8;
+}
+

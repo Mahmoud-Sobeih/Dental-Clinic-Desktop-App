@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #22292F;
+}
+
+#labelSearch{
+    -fx-font: normal bold 20px 'serif';
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: #38C172;
+    -fx-text-fill:white;
+    -fx-text-size:10px;
+    -fx-min-width: 110;
+    -fx-min-height: 10;
+}
+.button:hover {
+  -fx-opacity: 0.8;
+}
+#bsearch{
+    -fx-background-color: white;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+#bhome{
+    -fx-background-color: #22292F;
+    -fx-min-width: 40;
+    -fx-min-height: 40;
+}
+
+
+.text-field{
+    -fx-min-width: 200;
+    -fx-min-height: 30;
+}
+
+
+.text-area{
+    -fx-max-width: 200;
+    -fx-min-height: 300;
+}
+#resultArea{
+    -fx-max-width: 300;
+    -fx-min-height: 300;
+}
+
+
+#Ttime{
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+}
+
+
+.grid-pane {
+    /*-fx-background-color: red;*/
+    -fx-background-radius: 5.0;
+    -fx-padding: 20;
+    -fx-hgap: 10;
+    -fx-vgap: 20;
+}
+.grid{
+    -fx-padding: 10;
+    -fx-hgap: 10;
+}
+.grid2{
+    -fx-background-color: #ECF0F1;
+    -fx-background-radius: 5.0;
+    -fx-background-insets: 0.0 3.0 0.0 3.0;
+    -fx-padding: 15;
+    -fx-hgap: 10;
+    -fx-vgap: 20;
+}
+
+
+.scroll-pane{
+   -fx-background-color: #ECF0F1;
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}

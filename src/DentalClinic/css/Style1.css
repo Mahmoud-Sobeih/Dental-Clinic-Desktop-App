@@ -1,0 +1,29 @@
+/*.root {
+    -fx-background-image: url("Untitled-3.jpg");
+     
+}*/
+#t1{  
+    -fx-font: bold 35px "Arial";   
+    -fx-effect:dropshadow(one-pass-box,white,8,0.0,2,0);  
+      
+} 
+.button{
+    -fx-background-color: #38C172;
+    -fx-text-fill:white;
+    -fx-font-size:20px;
+    /*-fx-border-radius:15px;*/
+    -fx-font-family: "Times New Roman";
+}
+
+
+.button:hover {
+   -fx-opacity: 0.8;
+}
+
+#grid1Id{
+    -fx-background-color: #22292F;
+}
+
+#grid2Id{
+    -fx-background-color: white;
+}
